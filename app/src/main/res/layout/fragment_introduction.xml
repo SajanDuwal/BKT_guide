@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E0E0E0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vpImageSwipe"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#abcdef" />
+
+        <TextView
+            android:id="@+id/tvForgetPassword"
+            style="@style/TextAppearance.MaterialComponents.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="@dimen/dimen6dp"
+            android:text="@string/info"
+            android:textColor="#0008ff"
+            android:textSize="@dimen/dimen12sp"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="#E0E0E0" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Durbar Square"
+            android:textColor="@android:color/white"
+            app:cardElevation="12dp"
+            app:contentPadding="9dp">
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="9dp"
+                    android:text="This is Durbar Squarealkdflkasd flsadhfl sahdfl hsadlkfh  slak dhfl ksahflk halfdshlka sdhflk sahdlkfhlskahf lksadhf lksdh lksdhfl sdahflsdhf lkshflksdh flksdh lksdah lksdha lksdh lkhsalk hslakhflskda hflskadhflksad hlks dhflkshdlfk hsaldk fhaslkdfh"
+                    android:textSize="21sp" />
+            </androidx.core.widget.NestedScrollView>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

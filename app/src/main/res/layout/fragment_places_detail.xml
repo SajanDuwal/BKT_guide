@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clTop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/ivPlaceImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvPlaceName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@android:color/black"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="Sajan Duwal"
+                android:textColor="@android:color/white"
+                app:layout_constraintBottom_toBottomOf="@id/ivPlaceImage"
+                app:layout_constraintEnd_toEndOf="@id/ivPlaceImage" />
+
+            <ImageView
+                android:id="@+id/ivMapPin"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@android:color/black"
+                android:padding="4dp"
+                android:src="@drawable/ic_locate"
+                app:layout_constraintBottom_toBottomOf="@id/ivPlaceImage"
+                app:layout_constraintEnd_toEndOf="@id/ivPlaceImage" />
+
+            <View
+                android:id="@+id/viewHr"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="#E0E0E0"
+                app:layout_constraintTop_toBottomOf="@id/ivMapPin" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvContent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                app:cardElevation="12dp"
+                app:contentPadding="9dp"
+                app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/viewHr">
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tvContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="9dp"
+                        android:text="This is Durbar Square"
+                        android:textSize="21sp" />
+                </androidx.core.widget.NestedScrollView>
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

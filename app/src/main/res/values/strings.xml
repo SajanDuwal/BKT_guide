@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BktGuide</string>
+    <string name="title">Own Guide Bkt</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_sign_up">Sign Up</string>
+    <string name="txt_sign_up_msg">Don\'t you have account?</string>
+    <string name="txt_or">OR</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_password">Password</string>
+    <string name="content_description">Image</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="start">Start</string>
+    <string name="open">Open Drawer</string>
+    <string name="close">Close Drawer</string>
+    <string name="done">Done</string>
+    <string name="txt_new_password">New Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="forgetPassword">Forget Password?</string>
+    <string name="ok">OK</string>
+    <string name="text_info">Username is required to reset password!</string>
+    <string name="info">Swipe for more images!</string>
+</resources>

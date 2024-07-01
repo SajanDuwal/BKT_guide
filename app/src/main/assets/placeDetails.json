@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "place_name": "Durbar Square",
+    "location": [
+      {
+        "latitude": 20.1,
+        "longitude": 201
+      }
+    ],
+    "content": "Bhaktapur Durbar Square, the main square of the city, is a conglomeration of stone art, metal art, wood carving, and terracotta art and architectural showpieces. The Golden Gate, statue of King Bhupatindra Malla perching on the top of stone monoliths, National Art Gallery, the palace of 55 windows, the Vatsala Temple, the big bell, the bell of barking dogs, and Pashupatinath Temple (Yachheswor Mahadev Temple) with erotic wood carvings, stone temple of Siddhilaxmi, octagonal structure \"Chyasinhmandap\", Phasi Dega (Silumahadev Temple), golden spout, stone spout, Taleju complex, Pahanchhen, replica of Chardham (Jag Nath, Badri Nath, Rameshwor and Kedarnath Temples, four pilgrimage sites of Hindu) and many master pieces of stone sculpture are the main attraction of the square."
+  },
+  {
+    "id": 2,
+    "place_name": "Taumadhi Square",
+    "location": [
+      {
+        "latitude": 2.3,
+        "longitude": 203
+      }
+    ],
+    "content": "Taumadhi is the next important square of the city where the best example of engineering and architecture of multi roofed temples and rectangular temples can be observed. Best craftsmanship of stone sculptures, stone spouts, traditional water tank and wood carving are proudly exhibiting their glorious history. The Nyatapola Temple, Bhairabnath Temple, Tilmadhav Narayan Temple and Stone sculpture of earthquake protector are the major monuments of the Square."
+  },
+  {
+    "id": 3,
+    "place_name": "Dattatreya Temple",
+    "location": [
+      {
+        "latitude": 20.1,
+        "longitude": 201
+      }
+    ],
+    "content": "Dattatreya Temple is the oldest part of the city which is also an open museum, especially for wood carving. Dattatraya, the oldest temple of the city, Bhimsen temple, water spouts, peacock window and other various size and shaped windows and Maths are the major art and architecture of this site. Brass and Bronze, and wood carving museum also can be observed in the square."
+  },
+  {
+    "id": 4,
+    "place_name": "Pottery Square",
+    "location": [
+      {
+        "latitude": 2.3,
+        "longitude": 203
+      }
+    ],
+    "content": "Pottery is known as one of the world's old professions. In Bhaktapur many potters can still be seen working with their traditional wooden wheels for giving various shape and size to clay. Talako (middle-south of the city) and Suryamadhi (east of the city) are two particular localities of Bhaktapur where earthen pots are made are known as pottery squares. One of them lies five minutes south west of Taumadhi Square and another lies east from Dattatray Square."
+  },
+  {
+    "id": 5,
+    "place_name": "Siddha Pokhari",
+    "location": [
+      {
+        "latitude": 20.1,
+        "longitude": 201
+      }
+    ],
+    "content": "Siddha Pokhari (Ta-Pukhu) Indra Daha- Bhaktapur Siddha Pokhari, is a beautiful pond situated at Dudhpati, the entrance of the ancient city Bhaktapur. This pond was built around six hundred years ago; during the reign of Medieval King Yakshya Malla. On the auspicious occasion of Ashwin Krishna Dwitiya (the next day of Indra Jatra), hundreds of devotees gather around the Siddha pokhari . They take holy dips in the pond and worship goddess Indrayani, (They believe that their worship pleases the goddess and their family get happiness and her blessings). On the very day, the Sidddha Pokhari is decorated with oil lamps all around its boundary. There are statues of Shaiva, Shakti, Buddhists and Baishnav sects from Lichhavi to Malla Times surrounding the Temple. There is also a tradition of worshipping Basuki Nag (Serpent god) as provisions in Tantric way. (It is especially done in droughts; It is believed Worshipping Bashuki Nag brings rain in droughts.), Other very enchanting and beautiful views in the Pokhari are its fishes. Friends, family members with children come here to enjoy the pleasure of feeding the numerous fishes in the pond."
+  },
+  {
+    "id": 6,
+    "place_name": "Kamal Pokhari",
+    "location": [
+      {
+        "latitude": 2.3,
+        "longitude": 203
+      }
+    ],
+    "content": "Kamalpokhari, the pond of lotus, is one of the famous ponds in Bhaktapur, Nepal. It is located beside the Kamalbinayak Temple of Lord Ganesh. The Kamalbinayak temple is among one of the four major Binayak (Lord Ganesh) of the Kathmandu valley. It is a peaceful place to enjoy the company of friends and enjoy the evenings.\n Those visiting Bhaktapur should not miss the evening time with friends at this pond. If you are one of the follower or Lord Ganesh, then you are right within the premises of Kamalbinayak and you can offer your prayers and worship him during the time.\n The pond is decorated like a bride in Hindu custom during Chhath, one of the major festivals of southern Nepal (Terai/Madhesh) that fall in late October. It is the festival of love and life, during which either one or more members of the family fasts and worships the Sun for bestowing the bounties of life on earth and welfare of their family members."
+  },
+  {
+    "id": 7,
+    "place_name": "Around Bhaktapur",
+    "location": [],
+    "content": "Bhaktapur is also surrounded by very exciting places. Walking or driving around the city, you will experience amazing natural beauty, glorious historical monuments, indigenous life style and panoramic views of high Himalayas. Changu Narayan, Nagarkot, Suryabinayak, Thimi , Nagadesh and Bode are ideal places to visit around the city."
+  }
+]

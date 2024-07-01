@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "963356008158",
+    "firebase_url": "https://bktguide.firebaseio.com",
+    "project_id": "bktguide",
+    "storage_bucket": "bktguide.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963356008158:android:fc9f69d72fa74533db6c4f",
+        "android_client_info": {
+          "package_name": "com.sajan.bktguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963356008158-4t9d358pgp3b0b3lqf77imh955q8gqhb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sajan.bktguide",
+            "certificate_hash": "d146300c43663edb4c91475656fc68535720a900"
+          }
+        },
+        {
+          "client_id": "963356008158-beu4f6eaohfuv4tufnbmqduf5rgme0fr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUdVonQKGOPkgIFWik42FtmMkLo7pwfBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963356008158-beu4f6eaohfuv4tufnbmqduf5rgme0fr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
